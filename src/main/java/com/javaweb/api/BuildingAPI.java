@@ -47,6 +47,6 @@ public class BuildingAPI {
 						@PathVariable String name,
 						@RequestParam (value = "ward", required = false) String ward)
 	{
-		System.out.println("đã xóa tòa "+ name + " nhà có : "+id+" xong ở : "+ward);
+		System.out.println("đã xóa tòa nhà "+ name + " nhà có : "+id+" xong ở : "+ward);
 	}
 }
